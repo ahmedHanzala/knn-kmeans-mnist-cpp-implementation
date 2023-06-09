@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="KNN">
+      <UniqueIdentifier>{4bf2e9ca-0d96-48ad-9919-b70b045600a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KNN\include">
+      <UniqueIdentifier>{6b938e25-b03a-4a69-9326-9481d4394e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KNN\src">
+      <UniqueIdentifier>{a462bd39-a56e-4cc8-9051-2d0760279b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\mnist_mlorg\include\common.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mnist_mlorg\include\DataHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mnist_mlorg\include\data.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mnist_mlorg\KNN\include\knn.h">
+      <Filter>KNN\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\mnist_mlorg\src\common.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mnist_mlorg\src\data.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mnist_mlorg\src\DataHandler.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mnist_mlorg\KNN\src\knn.cc">
+      <Filter>KNN\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\mnist_mlorg\train-images-idx3-ubyte">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\mnist_mlorg\train-labels-idx1-ubyte">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\mnist_mlorg\Makefile" />
+  </ItemGroup>
+</Project>
