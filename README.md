@@ -1,4 +1,7 @@
 <h1>KNN and Kmeans Algorithms on MNIST in C++ from Scratch</h1>
+<p>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+</p>
 
  <p>This project demonstrates the implementation of the K Nearest Neighbors (KNN) and K-means algorithms from scratch in C++. It was developed as part of the second-semester coursework for the Object-Oriented Programming subject. This was made to have a lower-level understanding of how these machine learning algorithms work and to appreciate how elegantly pandas handles data and how much we should appreciate the library. This is a pandas appreciation repository :D </p>
   
