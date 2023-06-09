@@ -1,37 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>KNN and Kmeans Algorithms on MNIST in C++ from Scratch</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-    h1 {
-      color: #333;
-      margin-bottom: 10px;
-    }
-    p {
-      color: #555;
-    }
-    .repo-info {
-      margin-top: 20px;
-    }
-    .repo-info p {
-      margin-bottom: 10px;
-    }
-    .repo-link {
-      display: inline-block;
-      background-color: #0366d6;
-      color: #fff;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 4px;
-    }
-  </style>
-</head>
-<body>
-  <h1>KNN and Kmeans Algorithms in C++</h1>
+<h1>KNN and Kmeans Algorithms on MNIST in C++ from Scratch</h1>
+
   <p>This project demonstrates the implementation of the K Nearest Neighbors (KNN) and K-means algorithms from scratch in C++. It was developed as part of the second-semester coursework for the Object-Oriented Programming subject.</p>
   
   <h2>Project Features:</h2>
@@ -57,5 +25,3 @@
     <p>This project is hosted on GitHub. You can find the repository at:</p>
     <a class="repo-link" href="https://github.com/your-username/your-repo">https://github.com/your-username/your-repo</a>
   </div>
-</body>
-</html>
